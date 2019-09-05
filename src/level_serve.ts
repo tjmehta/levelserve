@@ -1,8 +1,7 @@
-import createLevelStream, { OPERATIONS } from 'level-rpc-stream'
-
 import { LevelUp } from 'levelup'
 import Pumpify from 'pumpify'
 import { Stream } from 'stream'
+import createLevelStream from 'level-rpc-stream'
 import net from 'net'
 import through2 from 'through2'
 import uuid from 'uuid'
