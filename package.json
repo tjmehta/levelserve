@@ -1,6 +1,6 @@
 {
   "name": "level-serve",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "serve leveldb over a network socket",
   "main": "index.js",
   "dependencies": {
