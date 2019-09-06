@@ -1,2 +1,2 @@
 # level-serve
-serve LevelDB over a socket
+serve leveldb over a network socket

@@ -1,0 +1,63 @@
+{
+  "name": "level-serve",
+  "version": "0.0.0",
+  "description": "serve leveldb over a network socket",
+  "main": "index.js",
+  "dependencies": {
+    "@types/jest": "^24.0.17",
+    "@types/msgpack5": "^3.4.1",
+    "@types/pump": "^1.1.0",
+    "@types/pumpify": "^1.4.1",
+    "@types/through2": "^2.0.34",
+    "@types/uuid": "^3.4.5",
+    "level-rpc-stream": "^1.1.0",
+    "msgpack5": "^4.2.1",
+    "mux-demux": "^3.7.9",
+    "muxdemux": "^1.1.1",
+    "pipe-errors": "^1.1.1",
+    "pump": "^3.0.0",
+    "pumpify": "^2.0.0",
+    "through2": "^3.0.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/duplexify": "^3.6.0",
+    "@types/levelup": "^3.1.1",
+    "@types/memdown": "^3.0.0",
+    "babel-jest": "^24.9.0",
+    "duplexify": "^4.1.1",
+    "jest": "^24.8.0",
+    "levelup": "^4.1.0",
+    "memdown": "^4.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmehta/level-serve.git"
+  },
+  "keywords": [
+    "leveldb",
+    "level",
+    "server",
+    "serve",
+    "socket",
+    "net",
+    "http",
+    "port"
+  ],
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/level-serve/issues"
+  },
+  "homepage": "https://github.com/tjmehta/level-serve#readme"
+}
